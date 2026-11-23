@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Anujin Naranbaatar</title>
+<meta name="description" content="Anujin is a design researcher working toward responsible, lasting business models for climate and livelihoods.">
+<meta property="og:title" content="Anujin Naranbaatar">
+<meta property="og:description" content="Design researcher working toward responsible, lasting business models for climate and livelihoods.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 3' shape-rendering='crispEdges'%3E%3Crect x='0' y='0' width='2' height='2' fill='%23E63B57'/%3E%3Crect x='1' y='0' width='2' height='2' fill='%231A8FDB' fill-opacity='.85'/%3E%3Crect x='0.5' y='1' width='2' height='2' fill='%2316A043' fill-opacity='.8'/%3E%3C/svg%3E">
+<link href="https://fonts.googleapis.com/css2?family=Reenie+Beanie&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#fff}
+a{color:#000}a:hover{color:#555}
+button{font:inherit;color:inherit}
+button:focus-visible{outline:2px solid #000;outline-offset:2px}
+@keyframes fadein{from{opacity:0}to{opacity:1}}
+.page-in{animation:fadein .4s ease-out both}
+@keyframes fl0{0%,100%{translate:0 0}50%{translate:4px -5px}}
+@keyframes fl1{0%,100%{translate:0 0}50%{translate:-5px 3px}}
+@keyframes fl2{0%,100%{translate:0 0}50%{translate:3px 5px}}
+@keyframes fl3{0%,100%{translate:0 0}50%{translate:-4px -4px}}
+.fl0{animation:fl0 4.2s ease-in-out infinite}
+.fl1{animation:fl1 5s ease-in-out infinite}
+.fl2{animation:fl2 4.6s ease-in-out infinite}
+.fl3{animation:fl3 5.4s ease-in-out infinite}
+.tile{transition:background-color .3s linear}
+.flip{position:relative;width:100%;height:100%;transform-style:preserve-3d;transition:transform .6s cubic-bezier(.4,.1,.2,1)}
+.face{position:absolute;inset:0;box-sizing:border-box;backface-visibility:hidden;-webkit-backface-visibility:hidden}
+.face-back{transform:rotateY(180deg)}
+.pxframe{--u:4px;position:absolute;inset:0;background:#2b2b2b;clip-path:polygon(calc(var(--u)*2) 0,calc(100% - var(--u)*2) 0,calc(100% - var(--u)*2) var(--u),calc(100% - var(--u)) var(--u),calc(100% - var(--u)) calc(var(--u)*2),100% calc(var(--u)*2),100% calc(100% - var(--u)*2),calc(100% - var(--u)) calc(100% - var(--u)*2),calc(100% - var(--u)) calc(100% - var(--u)),calc(100% - var(--u)*2) calc(100% - var(--u)),calc(100% - var(--u)*2) 100%,calc(var(--u)*2) 100%,calc(var(--u)*2) calc(100% - var(--u)),var(--u) calc(100% - var(--u)),var(--u) calc(100% - var(--u)*2),0 calc(100% - var(--u)*2),0 calc(var(--u)*2),var(--u) calc(var(--u)*2),var(--u) var(--u),calc(var(--u)*2) var(--u))}
+.pxinner{--u:4px;position:absolute;inset:var(--u);background:#fff;box-sizing:border-box;clip-path:polygon(calc(var(--u)*2) 0,calc(100% - var(--u)*2) 0,calc(100% - var(--u)*2) var(--u),calc(100% - var(--u)) var(--u),calc(100% - var(--u)) calc(var(--u)*2),100% calc(var(--u)*2),100% calc(100% - var(--u)*2),calc(100% - var(--u)) calc(100% - var(--u)*2),calc(100% - var(--u)) calc(100% - var(--u)),calc(100% - var(--u)*2) calc(100% - var(--u)),calc(100% - var(--u)*2) 100%,calc(var(--u)*2) 100%,calc(var(--u)*2) calc(100% - var(--u)),var(--u) calc(100% - var(--u)),var(--u) calc(100% - var(--u)*2),0 calc(100% - var(--u)*2),0 calc(var(--u)*2),var(--u) calc(var(--u)*2),var(--u) var(--u),calc(var(--u)*2) var(--u))}
+@media (prefers-reduced-motion: reduce){.flip{transition:none}}
+.cam-cursor{cursor:url(images/cursor-camera.svg) 16 16, zoom-in}
+.pen-cursor,.pen-cursor *{cursor:url(images/cursor-pen.svg) 2 30, pointer}
+.mag-cursor,.mag-cursor *{cursor:url(images/cursor-magnifier.svg) 12 12, zoom-in}
+.heart-cursor,.heart-cursor *{cursor:url(images/cursor-heart.svg) 16 16, default}
+.about-stage{position:relative;width:100%;max-width:1200px;margin:0 auto;aspect-ratio:1000/520}
+.about-portrait{position:absolute;left:32%;width:36%;top:5.48%;height:89.04%}
+.about-card{position:absolute;width:30%;box-sizing:border-box}
+.about-line{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;overflow:visible}
+@media (max-width: 700px){.mx{width:100% !important;margin:0 0 16px 0 !important}}
+@media (max-width: 900px){.about-stage{aspect-ratio:auto;display:flex;flex-direction:column;gap:8px}.about-portrait{position:relative;left:auto;top:auto;width:min(360px,100%);height:auto;aspect-ratio:28/36;margin:0 auto 16px}.about-card{position:static;width:100%;text-align:left !important}.about-card .ab-head{flex-direction:row !important;justify-content:flex-start !important}.about-line{display:none}}
+@keyframes waveB{0%,100%{color:#2b2b2b}12%,28%{color:#F2552C}40%{color:#2b2b2b}}
+@keyframes waveT{0%,100%{color:#2b2b2b}12%,28%{color:#2FA6F2}40%{color:#2b2b2b}}
+@keyframes waveP{0%,100%{color:#2b2b2b}12%,28%{color:#1DB54A}40%{color:#2b2b2b}}
+@keyframes waveBTP{0%,100%{color:#2b2b2b}10%{color:#F2552C}22%{color:#2FA6F2}34%{color:#1DB54A}46%{color:#2b2b2b}}
+.wave-B{animation:waveB 3.2s ease-in-out infinite}
+.wave-T{animation:waveT 3.2s ease-in-out infinite}
+.wave-P{animation:waveP 3.2s ease-in-out infinite}
+.wave-BTP{animation:waveBTP 4s ease-in-out infinite}
+@media (prefers-reduced-motion: reduce){.wave-B,.wave-T,.wave-P,.wave-BTP{animation:none}}
+@media (prefers-reduced-motion: reduce){.page-in,.fl0,.fl1,.fl2,.fl3{animation:none}.tile{transition:none}}
+
+#app{min-height:100vh}
+</style>
+</head>
+<body>
+<div id="app"></div>
+<noscript><p style="font-family: system-ui, sans-serif; padding: 24px">This portfolio needs JavaScript to run.</p></noscript>
+<script type="module" src="app.js"></script>
+</body>
+</html>
